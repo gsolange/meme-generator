@@ -39,7 +39,6 @@
                 <div title="Upper text image" class="bottom-text" id="textFontBottom">
                     <p aria-hidden="true">BOTTOM TEXT</p>
                 </div>
-                </div>
             </section>
         </article>
     </main>
@@ -57,7 +56,7 @@
                     <div id="cont-input" class="cont-input-color">
                         <input aria-label="Pick a Background Color" class="background-input" id="img-color" type="color"
                             value="#191E2B" />
-                        <span class="text-background-color" id="text-input-color" for="img-color">#191E2B</span>
+                        <label class="text-background-color" id="text-input-color" for="img-color">#191E2B</span>
                     </div>
                     <select title="Select a color filter from the list" class="input-style" name=""
                         id="options-filter-bg">
@@ -108,7 +107,7 @@
             <h2>TEXT</h2>
             <section class="superior flex-column mb-20px">
                 <label class="bold-text" for="top-text">SUPERIOR</label>
-                <textarea aria-label="Write the upper text" class="input-style" type="text" id="top-text"
+                <textarea aria-label="Write the upper text" class="input-style" id="top-text"
                     placeholder="TOP TEXT"></textarea>
                 <div>
                     <input aria-label="Delete upper text" id="check-top-text" type="checkbox" />
@@ -118,7 +117,7 @@
 
             <section class="inferior flex-column mb-20px">
                 <label class="bold-text" for="bottom-text">INFERIOR</label>
-                <textarea aria-label="Write the lower text" class="input-style" name="" type="text" id="bottom-text"
+                <textarea aria-label="Write the lower text" class="input-style" id="bottom-text"
                     placeholder="BOTTOM TEXT"></textarea>
                 <div>
                     <input aria-label="Delete lower text" id="check-bottom-text" type="checkbox" />
@@ -197,7 +196,7 @@
             </section>
             <section class="space-container flex-column mb-20px">
                 <label class="bold-text" for="line-height">LEADING</label>
-                <select class="input-style" name="" id="line-height">
+                <select class="input-style" name="idLeading" id="line-height">
                     <option value="0.8">0.8</option>
                     <option value="1">1</option>
                     <option value="1.2">1.2</option>
