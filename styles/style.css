@@ -222,9 +222,6 @@ h4 {
     margin-top: -5px;
 }
 
-.filterspace {
-    padding-top: -15px;
-}
 
 @media screen and (max-width: 1300px) {
     .close-aside {
