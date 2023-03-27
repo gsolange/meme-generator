@@ -1,4 +1,4 @@
-var content = document.getElementById('mainContainerMemeInside');
+const content = document.querySelector('.mainContainerMemeInside')
 var alertMsg = "*********** Please Read *********** \n";
 alertMsg += "Image must be saved in your device \n";
 alertMsg += "*********** Thanks for reading ***********";
